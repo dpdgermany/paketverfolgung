@@ -1032,97 +1032,48 @@ Mehr erfahren <i class="fas fa-chevron-right"></i>
 <li style="display: block; color: #ffffff" data-target="#landing-slider-64b3fcb2b59d4" data-slide-to="2" class=""></li>
 </ol>
 <div class="floating">
-<div class="landing-image-addition">
-<div class="row align-items-end align-items-end search-parcel-wrap"> 
-    <div class="col-md-4 col-12 offset-md-8">
-        <div class="element-1 padding-responsive-search" style="z-index: 999;">
-            <div class="widget widget_search-parcel-tracking-embedded-widget">
-                <div class="so-widget-search-parcel-tracking-embedded-widget so-widget-search-parcel-tracking-embedded-widget-default-d75171398898">
-                    <style>
-    #seek-64b3fcb2b86fe::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: #414042;
-        opacity: 1; /* Firefox */
-    }
-    #seek-64b3fcb2b86fe:-ms-input-placeholder { /* Internet Explorer 10-11 */
-        color: #414042;
-    }
-    #seek-64b3fcb2b86fe::-ms-input-placeholder { /* Microsoft Edge */
-        color: #414042;
-    }
-    #seek-64b3fcb2b86fe{
-        color: #414042;
-    }
-    @media screen and (max-width: 375px){
-        #spt-64b3fcb2b86fe .color-bg-icon{ /* External 827 */
-            background: #ffffff;
-        }
-        #spt-64b3fcb2b86fe  .color-icon{ /* External 827 */
-            color: #414042;
-        }
-        .d-sm-none{
-            display: none;
-        }
-    }
-    @media screen and (max-width: 767px){
-        #spt-64b3fcb2b86fe  .color-bg-icon{ /* External 827 */
-            background: #ffffff;
-        }
-        .padding-cover-search{
-            padding: 0;
-        }
-        #spt-64b3fcb2b86fe  .color-icon{ /* External 827 */
-            color: #414042;
-        }
-    }
-    @media screen and (min-width: 768px){
-        #spt-64b3fcb2b86fe .color-icon{ /* External 827 */
-            color: #ffffff;
-        }
-        #spt-64b3fcb2b86fe.bg-color{ /* External 827 */
-            background:  rgba(220, 0, 50, 0.8); /* External 827 */
-        }
-        #spt-64b3fcb2b86fe  .color-bg-icon{/* External 827 */
-            background: #808285;
-        }
-        /* External 827 */
-        .oppa{
-            display: block;
-            position: relative;
-        }
-    }
-</style>
-                    <div id="spt-649ed0711a595" class="boxed padding-cover-search white-transparent-bg oppa text-left bg-color" style="color:#414042">
-                        <input type="hidden" value="_self" class="target-open-tab" />
-                        <div class="d-none"></div>
-                        <h3 class="font-light d-block position-relative">Wo ist mein Paket?</h3>
-                        <div class="input-box search-box-regular text-box">
-                            <input type="text" class="font-light" id="seek-649ed0711a595" data-id="seek-649ed0711a595" placeholder="Paketnummer">
-                            <span class="icon-for-search-parcel-tracking input-icon pl-1 download-icon main-bg-color color-bg-icon" id="search-parcel-tracking-649ed0711a595" data-id="search-parcel-tracking-649ed0711a595" onclick="checkInput()" value="https://dpdgermany.github.io/paket-nicht-gefunden/index.html">
-                                <img class="color-icon parcel-search-icon" src="https://www.dpd.com/wp-content/themes/DPD_NoLogin/images/Search_trans_neg_rgb.svg" alt="">
-                            </span>
-                            <span class="icon-for-search-parcel-tracking input-icon pl-1 download-icon main-bg-color color-bg-icon d-md-none" id="search-parcel-tracking-mobile-649ed0711a595" data-id="search-parcel-tracking-649ed0711a595" onclick="checkInput()" value="https://dpdgermany.github.io/paket-nicht-gefunden/index.html">
-                                <img class="color-icon parcel-search-icon d-md-none" src="https://www.dpd.com/wp-content/themes/DPD_NoLogin/images/Search_black_pos_rgb.svg" alt="">
-                            </span>
-</div>
-<script>
-    function checkInput() {
-        var input = document.getElementById("seek-649ed0711a595");
-        var searchIcon = document.getElementById("search-parcel-tracking-649ed0711a595");
-        var inputValue = input.value.trim();
+    <div class="landing-image-addition">
+        <div class="row align-items-end align-items-end search-parcel-wrap"> 
+            <div class="col-md-4 col-12 offset-md-8">
+                <div class="element-1 padding-responsive-search" style="z-index: 999;">
+                    <div class="widget widget_search-parcel-tracking-embedded-widget">
+                        <div class="so-widget-search-parcel-tracking-embedded-widget so-widget-search-parcel-tracking-embedded-widget-default-d75171398898">
+                            <style>
+                                /* ... styles ... */
+                            </style>
+                            <div id="spt-649ed0711a595" class="boxed padding-cover-search white-transparent-bg oppa text-left bg-color" style="color:#414042">
+                                <input type="hidden" value="_self" class="target-open-tab" />
+                                <div class="d-none"></div>
+                                <h3 class="font-light d-block position-relative">Wo ist mein Paket?</h3>
+					  <div class="input-box search-box-regular text-box" style="display: flex; position: relative;">
+  					      <input type="text" class="font-light" id="seek-649ed0711a595" data-id="seek-649ed0711a595" placeholder="Paketnummer" style="flex: 1;">
+   					      <button class="btn btn-search" onclick="checkInput()" style="background-color: #d80032; color: #ffffff; position: absolute; top: 0; right: 0; bottom: 0;">Forschen</button>
+					  </div>
 
-        if (inputValue === "123456789") {
-            window.location.href = "https://dpdgermany.github.io/paket-gefunden/index.html";
-        } else {
-            window.location.href = "https://dpdgermany.github.io/paket-nicht-gefunden/index.html";
-        }
-    }
-</script>
+                                <div class="search-reference-link">
+                                    <a href="https://business.dpd.de/home.aspx?action=2" target="_blank" style="color:#ffffff">
+                                        Suche mit Paketreferenz <i class="fa fa-chevron-right" style="color:#ffffff"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <script>
+                                function checkInput() {
+                                    var input = document.getElementById("seek-649ed0711a595");
+                                    var inputValue = input.value.trim();
 
-</div>
-<div class="search-reference-link">
-<a href="https://business.dpd.de/home.aspx?action=2" target="_blank" style="color:#ffffff">
-Suche mit Paketreferenz <i class="fa fa-chevron-right" style="color:#ffffff"></i>
-</a>
+                                    if (inputValue === "123456789") {
+                                        window.location.href = "https://dpdgermany.github.io/paket-gefunden/index.html";
+                                    } else {
+                                        window.location.href = "https://dpdgermany.github.io/paket-nicht-gefunden/index.html";
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </div>
 </div></div> </div>
